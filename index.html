@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slidshow_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>My Personal Homepage</title>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+    <h1>Dhreeti R.</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <!-- Projects Section -->
+    <section class="container" id="projects">
+    
+        <!-- <h2>My Projects</h2>
+            <p>A showcase of your projects will be displayed here.</p> -->
+        <div>
+            <!-- Project Slide 1 -->
+            <div class="slide active">
+                <img src="./images/project1.jpg" alt="Project 1">
+                <div class="overlay">
+                    <h3>Project Title 1</h3>
+                    <p>Project 1 description goes here. Highlighting main points of the project.</p>
+                </div>
+            </div>
+    
+            <!-- Project Slide 2 -->
+            <div class="slide">
+                <img src="./images/project2.jpg" alt="Project 2">
+                <div class="overlay">
+                    <h3>Project Title 2</h3>
+                    <p>Project 2 description goes here. Highlighting main points of the project.</p>
+                </div>
+            </div>
+    
+            <!-- Project Slide 3 -->
+            <div class="slide">
+                <img src="./images/project3.jpg" alt="Project 3">
+                <div class="overlay">
+                    <h3>Project Title 3</h3>
+                    <p>Project 3 description goes here. Highlighting main points of the project.</p>
+                </div>
+            </div>
+    
+    
+    
+            <!-- Dot Navigation -->
+            <div class="dot-container">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="container">
+            <div class="about-content">
+        <!-- Profile Picture -->
+        <img src="./images/photo.jpg" alt="Dhreeti R." width="150" height="150">
+        
+        <!-- Introduction -->
+        <p>Hello! I'm Dhreeti, a passionate professional with expertise in [your field or specialty]. I enjoy creating
+            innovative solutions and constantly learning new skills. Welcome to my personal homepage!</p>
+        
+        <!-- Resume Link -->
+        <p>
+            <a href="resume.pdf" target="_blank">Download My Resume</a>
+        </p>
+        </div>
+        </div>
+    </section>
+
+   
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+    
+        <!-- HTML Skill -->
+        <div class="skill">
+            <h3>HTML</h3>
+            <p>Experienced in crafting well-structured, accessible web pages with semantic HTML.</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 90%;"></div>
+            </div>
+        </div>
+    
+        <!-- CSS Skill -->
+        <div class="skill">
+            <h3>CSS</h3>
+            <p>Skilled in styling, layout techniques, and responsive design to create visually appealing web pages.</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 80%;"></div>
+            </div>
+        </div>
+    
+        <!-- JavaScript Skill -->
+        <div class="skill">
+            <h3>JavaScript</h3>
+            <p>Proficient in JavaScript for adding interactivity, DOM manipulation, and handling asynchronous tasks.</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 75%;"></div>
+            </div>
+        </div>
+    </section>
+</div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Dhreeti R. All rights reserved.</p>
+    
+        <!-- Social Media Links -->
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank" aria-label="LinkedIn">
+                <!-- LinkedIn Icon Placeholder -->
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://twitter.com/your-profile" target="_blank" aria-label="Twitter">
+                <!-- Twitter Icon Placeholder -->
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/your-profile" target="_blank" aria-label="Instagram">
+                <!-- Instagram Icon Placeholder -->
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </footer>
+
+    </footer>
+<script src="script.js"></script>
+</body>
+
+</html>
